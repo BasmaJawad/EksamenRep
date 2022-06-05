@@ -20,6 +20,7 @@ public class Student extends Human{
         Student s1 = new Student("Hans",20,9090);
         Student s2 = new Student("Greta", 19, 8464);
         s1.saysHi();
+        s2.saysName();
         System.out.println(s1);
         System.out.println(s2);
 
