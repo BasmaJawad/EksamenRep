@@ -9,12 +9,11 @@ public class læseFraFil {
         new læseFraFil().go();
     }
 
-    public void go() throws FileNotFoundException {
+    /* public void go() throws FileNotFoundException {
         // Lav et nyt fil objekt som repræsenterer filen
-        File file = new File("navne.text");
+        File file = new File("navne.txt");
         // Lav en scanner, som modtager fil objektet
         Scanner fil = new Scanner(file);
-
         while(fil.hasNext()){
             System.out.println(fil.nextLine());
         }
@@ -22,5 +21,14 @@ public class læseFraFil {
         // nextLine() metoden læser og returner den næste line i filen
         //Alt dette sættes i en while loop.
 
+    }*/
+
+
+    public void go() throws FileNotFoundException {
+        File file = new File("navne.txt");
+        Scanner fil = new Scanner(file);
+        while (fil.hasNext()) {
+            System.out.println(fil.nextLine());
+        }
     }
 }

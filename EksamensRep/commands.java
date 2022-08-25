@@ -178,7 +178,7 @@ public class commands {
             //CASTE TIL ARRAYLIST2
         List nyliste = Arrays.asList(cars);
 
-        //ARRALISTER UDSKRIVES NEMT
+        //ARRAYLISTER UDSKRIVES NEMT
         System.out.println(nyliste);
 
 
@@ -208,7 +208,12 @@ public class commands {
 
             //UDSKRIVE ARRAYLIST
             System.out.println(tal);
-    }
+
+            //Udskriv et bestemt tal
+            for (int i = 0; i < tal.size(); i++) {
+                if(tal.get(i)==4)
+                    System.out.println(tal.get(i));
+            }    }
 
 
 
@@ -234,18 +239,20 @@ public class commands {
 
     public static void main(String[] args) {
         commands c = new commands();
-        //c.printF();
-        //System.out.println();
-       //c.indexOf();
-        //c.subString();
-        //c.charAt();
-        //c.conditions();
-        //c.parametre(5,"nej");
-        //c.forLoop();
-        //c.forEach();
-       // c.nestedLoops();
-        //c.Arrays();
-        //c.arrayList();
+        c.printF();
+        System.out.println();
+       c.indexOf();
+        c.subString();
+        c.charAt();
+        c.conditions();
+        c.parametre(5,"nej");
+        c.whileLoop();
+        c.doWhileLoop();
+        c.forLoop();
+        c.forEach();
+       c.nestedLoops();
+        c.Arrays();
+        c.arrayList();
         c.genererics();
 
     }
