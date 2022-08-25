@@ -1,7 +1,7 @@
 package SemesterRep;
 import java.util.ArrayList;
 
-public class ØvelseOne {
+public class  ØvelseOne {
 
   private ArrayList<String> array = new ArrayList<>();
 
